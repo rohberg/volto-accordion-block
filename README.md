@@ -30,8 +30,8 @@ Editing the FAQ:
     ],
 
     "dependencies": {
-        "@eeacms/volto-blocks-form": "github:eea/volto-blocks-form#0.5.2",
-        "@rohberg/volto-accordion-block": "github:rohberg/volto-accordion-block"
+        "@eeacms/volto-blocks-form": "^1.0.0",
+        "@rohberg/volto-accordion-block": "^0.1.0"
     }
     ```
 
