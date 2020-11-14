@@ -1,0 +1,29 @@
+{
+  "name": "@rohberg/volto-accordion-block",
+  "version": "0.1.0",
+  "description": "volto-accordion-block: Volto add-on",
+  "main": "src/index.js",
+  "author": "European Environment Agency: IDM2 A-Team",
+  "license": "MIT",
+  "homepage": "https://github.com/rohberg/volto-accordion-block",
+  "keywords": [
+    "volto-addon",
+    "volto",
+    "plone",
+    "react"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:rohberg/volto-accordion-block.git"
+  },
+  "dependencies": {
+    "@eeacms/volto-blocks-form": "github:eea/volto-blocks-form#0.5.2"
+  },
+  "devDependencies": {
+    "release-it": "*"
+  },
+  "scripts": {
+    "release": "release-it",
+    "bootstrap": "node bootstrap"
+  }
+}
