@@ -17,8 +17,9 @@ Editing the FAQ:
 
 1. Create new volto project if you don't already have one:
     ```
-    $ npm install -g yo @plone/generator-volto
-    $ yo @plone/volto my-volto-project --addon @rohberg/volto-accordion-block
+    $ npm install -g yo
+    $ npm install -g @plone/generator-volto
+    $ yo @plone/volto my-volto-project
     $ cd my-volto-project
     ```
 
@@ -57,7 +58,7 @@ Katja Süss, Rohberg (@ksuess)
 
 **If you are new to Volto and or React:**
 
-See the training [Mastering of Plone 6 development](https://training.plone.org/) [Prelease] () where I use this use case and code to explain how to create a custom block type and how to create a Volto add-on.
+See the training [Mastering of Plone 6 development](https://training.plone.org/) [Prelease] (https://rohberg.github.io/training-plone/mastering-plone/volto_custom_block.html) where I use this use case and code to explain how to create a custom block type and how to create a Volto add-on.
 
 **If you want to create a Volto add-on:**
 
