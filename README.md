@@ -51,12 +51,15 @@ Katja Süss, Rohberg (@ksuess)
 
 ## Merits
 
-Add-On Template to start with: Eau de Web / European Environment Agency (EEA) https://github.com/eea/volto-addon-template
-
 *DragDropList* component from @eeacms/volto-blocks-form by Eau de Web / European Environment Agency (EEA)
 
 ## Training
 
-If you are new to Volto and or React: 
-See the training [Mastering of Plone 6 development](https://training.plone.org/) where I use this use case and code to explain how to create a customized block and how to create a Volto add-on.
+**If you are new to Volto and or React:**
 
+See the training [Mastering of Plone 6 development](https://training.plone.org/) [Prelease] () where I use this use case and code to explain how to create a custom block type and how to create a Volto add-on.
+
+**If you want to create a Volto add-on:**
+
+One way to start is the template `volto-addon-template`
+https://github.com/rohberg/volto-addon-template
