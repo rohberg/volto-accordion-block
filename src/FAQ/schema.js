@@ -33,7 +33,8 @@ export const QuestionAnswerPairSchema = (title_question, title_answer) => {
       },
     },
     required: ['question', 'answer'],
-}};
+  };
+};
 
 export const FAQSchema = {
   title: 'FAQ',

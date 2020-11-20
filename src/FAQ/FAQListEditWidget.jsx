@@ -31,7 +31,7 @@ const messages = defineMessages({
 export function moveQuestionAnswerPair(formData, source, destination) {
   return {
     ...formData,
-    faqs: move(formData.faqs, source, destination)
+    faqs: move(formData.faqs, source, destination),
   };
 }
 
