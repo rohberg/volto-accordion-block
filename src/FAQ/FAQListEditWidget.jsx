@@ -3,9 +3,8 @@ import { defineMessages, injectIntl } from 'react-intl';
 import { v4 as uuid } from 'uuid';
 import { omit, without } from 'lodash';
 import move from 'lodash-move';
-import { Icon, FormFieldWrapper } from '@plone/volto/components';
+import { FormFieldWrapper, DragDropList, Icon } from '@plone/volto/components';
 import { Form as VoltoForm } from '@plone/volto/components';
-import { DragDropList } from '@eeacms/volto-blocks-form/components';
 
 import dragSVG from '@plone/volto/icons/drag.svg';
 import trashSVG from '@plone/volto/icons/delete.svg';
