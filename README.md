@@ -15,23 +15,18 @@ Editing the FAQ:
 
 ## Getting started
 
-1. Create new volto project if you don't already have one:
+1. Create a new volto project if you don't already have one:
     ```
-    $ npm install -g yo
-    $ npm install -g @plone/generator-volto
-    $ yo @plone/volto my-volto-project
-    $ cd my-volto-project
+    npm init yo @plone/volto
     ```
 
 1. Update `package.json`:
-    ``` JSON
+    ```json
     "addons": [
-        "@eeacms/volto-blocks-form",
         "@rohberg/volto-accordion-block"
     ],
 
     "dependencies": {
-        "@eeacms/volto-blocks-form": "^1.0.0",
         "@rohberg/volto-accordion-block": "^0.1.0"
     }
     ```
@@ -46,13 +41,11 @@ Editing the FAQ:
 
 1. Login and edit a page by adding a block of type FAQ
 
+
 ## Author
 
 Katja Süss, Rohberg (@ksuess)
 
-## Merits
-
-*DragDropList* component from @eeacms/volto-blocks-form by Eau de Web / European Environment Agency (EEA)
 
 ## Training
 

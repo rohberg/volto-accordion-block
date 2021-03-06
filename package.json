@@ -16,8 +16,14 @@
     "type": "git",
     "url": "git@github.com:rohberg/volto-accordion-block.git"
   },
+  "addons": [
+    "@eeacms/volto-blocks-form"
+  ],
   "dependencies": {
-    "@eeacms/volto-blocks-form": "@eeacms/volto-blocks-form"
+    "@eeacms/volto-blocks-form": "^2.0.0"
+  },
+  "peerDependencies": {
+    "@plone/volto": ">=12.2.0"
   },
   "devDependencies": {
     "release-it": "*"
