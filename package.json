@@ -17,12 +17,11 @@
     "url": "git@github.com:rohberg/volto-accordion-block.git"
   },
   "addons": [],
-  "dependencies": {},
   "peerDependencies": {
     "@plone/volto": ">=12.2.0"
   },
   "devDependencies": {
-    "release-it": "*"
+    "release-it": "^15.1.1"
   },
   "scripts": {
     "release": "release-it",
