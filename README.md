@@ -50,11 +50,6 @@ Katja Süss, Rohberg (@ksuess)
 
 ## Training
 
-**If you are new to Volto and or React:**
+**If you are new to Volto (Plone 6):**
 
-See the training [Mastering of Plone 6 development](https://training.plone.org/) [Prelease] (https://rohberg.github.io/training-plone/mastering-plone/volto_custom_block.html) where I use this use case and code to explain how to create a custom block type and how to create a Volto add-on.
-
-**If you want to create a Volto add-on:**
-
-One way to start is the template `volto-addon-template`
-https://github.com/rohberg/volto-addon-template
+See the training [Mastering of Plone 6 development](https://training.plone.org/) where I use this use case and code to explain how to create a custom block type and how to create a Volto add-on.
