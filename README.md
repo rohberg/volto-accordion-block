@@ -17,7 +17,8 @@ Editing the FAQ:
 
 1. Create a new volto project if you don't already have one:
     ```
-    npm init yo @plone/volto
+    npm install -g yo @plone/generator-volto
+    yo @plone/volto
     ```
 
 1. Update `package.json`:
@@ -27,7 +28,7 @@ Editing the FAQ:
     ],
 
     "dependencies": {
-        "@rohberg/volto-accordion-block": "^0.1.0"
+        "@rohberg/volto-accordion-block": "*"
     }
     ```
 
