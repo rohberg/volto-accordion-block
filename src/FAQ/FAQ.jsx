@@ -6,14 +6,15 @@ import downSVG from '@plone/volto/icons/down-key.svg';
 import AnimateHeight from 'react-animate-height';
 import './accordion.less';
 
-import { Accordion, Grid, Divider, Header } from 'semantic-ui-react';
+import { Accordion } from 'semantic-ui-react';
 
 const FAQ = ({ data }) => {
   const [activeIndex, setActiveIndex] = useState(new Set());
+  console.debug('FAQ VIEW data', data);
 
-  return data.faq_list?.faqs ? (
+  return data?.data?.blocks_layout?.items ? (
     <>
-      {data.faq_list.faqs.map((id_qa) => (
+      {data.data.blocks_layout.items.map((id_qa) => (
         <Accordion key={id_qa} fluid exclusive={false}>
           <Accordion.Title
             index={id_qa}
@@ -30,7 +31,7 @@ const FAQ = ({ data }) => {
             ) : (
               <Icon name={rightSVG} size="20px" />
             )}
-            {data.faq_list.faqs_layout[id_qa][0]}
+            {data.data.blocks[id_qa].title}
           </Accordion.Title>
           <Accordion.Content active={activeIndex.has(id_qa)}>
             <AnimateHeight
@@ -38,11 +39,12 @@ const FAQ = ({ data }) => {
               duration={300}
               height={activeIndex.has(id_qa) ? 'auto' : 0}
             >
-              <div
+              {/* <div
                 dangerouslySetInnerHTML={{
                   __html: data.faq_list.faqs_layout[id_qa][1].data,
                 }}
-              />
+              /> */}
+              <div>{id_qa}</div>
             </AnimateHeight>
           </Accordion.Content>
         </Accordion>

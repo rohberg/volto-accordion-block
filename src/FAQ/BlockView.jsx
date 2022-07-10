@@ -1,17 +1,11 @@
 import React from 'react';
 
-import { List } from 'semantic-ui-react';
-
 import FAQ from './FAQ';
 
 const View = ({ data }) => {
   return (
-    <div className="block faq">
-      {/* <List
-        items={Object.entries(data).map(
-          ([key, value]) => key + ': ' + JSON.stringify(value),
-        )}
-      /> */}
+    <div className="block rohberg accordion">
+      {console.debug('block data (view)', data)}
       <FAQ data={data} />
     </div>
   );

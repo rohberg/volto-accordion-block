@@ -1,19 +1,19 @@
-import icon from '@plone/volto/icons/list-bullet.svg';
+import accordionSVG from '@plone/volto/icons/list-arrows.svg';
 
 import FAQBlockEdit from './FAQ/BlockEdit';
 import FAQBlockView from './FAQ/BlockView';
 import FAQListEditWidget from './FAQ/FAQListEditWidget';
 
 export default function applyConfig(config) {
-  config.blocks.blocksConfig.faq_viewer = {
-    id: 'faq_viewer',
-    title: 'FAQ',
+  config.blocks.blocksConfig.accordionblock = {
+    id: 'accordionblock',
+    title: 'Accordion',
     edit: FAQBlockEdit,
     view: FAQBlockView,
-    icon: icon,
-    group: 'text',
+    icon: accordionSVG,
+    group: 'common',
     restricted: false,
-    mostUsed: false,
+    mostUsed: true,
     sidebarTab: 1,
     security: {
       addPermission: [],
